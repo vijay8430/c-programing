@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.offers-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.offers-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    box-shadow: white;
+}
+
+.offer-card h3 {
+    margin-top: 0;
+}
+
+.offer-card button {
+    background-color:gray;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offer-card button:hover {
+    background-color:#80ff80;
+}
+
+@media only screen and (max-width: 768px) {
+    .offer-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .offer-card {
+        width: 100%;
+    }
+}
+.book now
+{
+	
+}
+
